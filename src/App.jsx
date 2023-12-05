@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Contacts from "./pages/Contacts";
 import Projects from "./pages/Projects/Projects";
 import "./styles/App.scss";
+import ProjectInfo from "./pages/ProjectInfo/ProjectInfo";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Nav />
       {/* <Home /> */}
       {/* <Projects /> */}
-      <Contacts />
+      <ProjectInfo />
+      {/* <Contacts /> */}
       <Footer />
     </div>
   );
