@@ -16,8 +16,6 @@
 
 html,
 body {
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
 
   font-family: "DM Sans", sans-serif;
@@ -29,6 +27,16 @@ body {
 }
 
 /* General */
+
+#root {
+  min-height: 100vh;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
 .container {
   margin: 0 auto;
@@ -112,35 +120,6 @@ body {
 .btn-outline:active {
   position: relative;
   top: 1px;
-}
-
-/* Project details */
-
-.project-details {
-  margin: 0 auto;
-  max-width: 865px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  text-align: center;
-}
-
-.project-details__cover {
-  max-width: 100%;
-  margin-bottom: 40px;
-
-  box-shadow: 0px 5px 35px $shadow;
-  border-radius: 10px;
-}
-
-.project-details__desc {
-  margin-bottom: 30px;
-
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 1.3;
 }
 
 /* Content list */
