@@ -10,8 +10,8 @@ const Projects = () => {
       <div className="container">
         <h2 className="title-1">Projects</h2>
         <ul className={styles.projects}>
-          {projects.map((project) => (
-            <Project key={project.id} {...project} />
+          {projects.map((project, i) => (
+            <Project key={project.title} id={i} {...project} />
           ))}
         </ul>
       </div>
