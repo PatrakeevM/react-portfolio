@@ -1,38 +1,53 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
-import light from "/img/icons/light.svg";
-import dark from "/img/icons/dark.svg";
 import styles from "./Nav.module.scss";
+import BtnDarkMode from "../BtnDarkMode/BtnDarkMode";
 
 const Nav = () => {
+  const activeLink = `${styles.link} ${styles.linkActive}`;
+  const commonLink = `${styles.link}`;
+
   return (
     <nav className={styles.nav}>
       <div className={styles.container}>
         <div className={styles.navRow}>
-          <a href="./index.html" className={styles.logo}>
+          <NavLink to={"/"} className={styles.logo}>
             <strong>Frontend</strong> portfolio
-          </a>
+          </NavLink>
 
-          <button className={styles.dark}>
-            <img className={styles.darkIcon} src={light} alt="Light mode" />
-            <img className={styles.darkIcon} src={dark} alt="Dark mode" />
-          </button>
+          <BtnDarkMode />
 
           <ul className={styles.navList}>
             <li>
-              <a className={styles.link} href="./index.html">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? activeLink : commonLink
+                }
+                to={"/"}
+              >
                 Home
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a className={styles.link} href="./projects.html">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? activeLink : commonLink
+                }
+                to={"/projects"}
+              >
                 Projects
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a className={styles.link} href="./contacts.html">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? activeLink : commonLink
+                }
+                to={"/contacts"}
+              >
                 Contacts
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>

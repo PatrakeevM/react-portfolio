@@ -1,15 +1,16 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 import styles from "./Project.module.scss";
 
-const Project = ({ img, title }) => {
+const Project = ({ img, title, id }) => {
   return (
-    <li className={styles.project}>
-      <a href="./project-page.html">
+    <NavLink to={`/project/${id}`}>
+      <li className={styles.project}>
         <img src={img} alt="Project img" />
         <h3>{title}</h3>
-      </a>
-    </li>
+      </li>
+    </NavLink>
   );
 };
 
