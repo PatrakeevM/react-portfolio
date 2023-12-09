@@ -15,7 +15,7 @@ const Header = () => {
         <div className="header__text">
           <p>with passion for learning and creating.</p>
         </div>
-        <a href="#!" className="btn">
+        <a className="btn" href="#!">
           Download CV
         </a>
       </div>
