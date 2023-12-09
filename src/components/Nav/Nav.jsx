@@ -1,8 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-import styles from "./Nav.module.scss";
 import BtnDarkMode from "../BtnDarkMode/BtnDarkMode";
+import styles from "./Nav.module.scss";
 
 const Nav = () => {
   const activeLink = `${styles.link} ${styles.linkActive}`;
