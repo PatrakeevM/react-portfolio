@@ -18,3 +18,14 @@
     color: $black;
   }
 }
+
+@media (max-width: 700px) {
+  .project {
+    max-width: 340px;
+
+    h3 {
+      padding: 12px 18px 22px;
+      font-size: 20px;
+    }
+  }
+}
