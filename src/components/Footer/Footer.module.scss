@@ -27,3 +27,16 @@
     margin-top: 0.5em;
   }
 }
+
+@media (max-width: 440px) {
+  .footer {
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+}

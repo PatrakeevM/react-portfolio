@@ -70,3 +70,33 @@
     }
   }
 }
+
+@media (max-width: 700px) {
+  .logo {
+    font-size: 18px;
+  }
+
+  .navRow {
+    justify-content: space-between;
+  }
+
+  .navList {
+    font-size: 14px;
+    row-gap: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo {
+    margin-right: 0;
+  }
+
+  .navRow {
+    flex-direction: column;
+    row-gap: 25px;
+  }
+
+  .navList {
+    column-gap: 60px;
+  }
+}
