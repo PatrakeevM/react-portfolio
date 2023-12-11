@@ -19,6 +19,7 @@ const projects = [
     title: "Music App",
     skills: "React, MaterialUI, Styled Components",
     gitHubLink: "https://github.com/PatrakeevM/react-music-app",
+    projectLink: "https://react-mus-app.netlify.app",
   },
   {
     img: project3,
@@ -26,6 +27,7 @@ const projects = [
     title: "Food Delivery",
     skills: "React, RTK, Styled Components, TypeScript",
     gitHubLink: "https://github.com/PatrakeevM/react-pizza",
+    projectLink: "https://react-pizza-patrakeev.netlify.app",
   },
 ];
 

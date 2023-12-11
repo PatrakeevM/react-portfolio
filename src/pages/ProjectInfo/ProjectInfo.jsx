@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 
 import projects from "../../assets/projectList";
+import gitBlack from "/img/icons/gitHub-black.svg";
 import styles from "./ProjectInfo.module.scss";
 
 const ProjectInfo = () => {
@@ -24,10 +25,22 @@ const ProjectInfo = () => {
             <p>Skills: {project.skills}</p>
           </div>
 
-          <a href="#!" className="btn-outline">
-            <img src="./img/icons/gitHub-black.svg" alt="" />
-            GitHub repo
-          </a>
+          <div className={styles.btns}>
+            <a target="_blank" className="btn-outline" href={project.gitHubLink}>
+              <img src={gitBlack} alt="" />
+              GitHub repo
+            </a>
+
+            {project.projectLink && (
+              <a
+                target="_blank"
+                className="btn-outline"
+                href={project.projectLink}
+              >
+                Visit Project
+              </a>
+            )}
+          </div>
         </div>
       </div>
     </main>
