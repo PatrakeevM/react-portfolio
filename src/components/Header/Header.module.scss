@@ -77,3 +77,13 @@
     }
   }
 }
+
+@media (max-width: 440px) {
+  .header {
+    h1 {
+      strong {
+        font-size: 28px;
+      }
+    }
+  }
+}
