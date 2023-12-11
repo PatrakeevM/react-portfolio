@@ -23,6 +23,12 @@
   border-radius: 10px;
 }
 
+.btns {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 @media (max-width: 1024px) {
   .info {
     max-width: 730px;
