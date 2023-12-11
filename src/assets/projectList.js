@@ -9,7 +9,7 @@ const projects = [
   {
     img: project1,
     imgBig: project1Big,
-    title: "Video Service",
+    title: "Frontend Portfolio",
     skills: "React, RTK, Styled Components",
     gitHubLink: "https://github.com/PatrakeevM/react-portfolio",
   },
