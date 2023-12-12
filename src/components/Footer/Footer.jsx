@@ -1,7 +1,7 @@
 import React from "react";
 
 import vk from "/img/icons/vk.svg";
-import inst from "/img/icons/instagram.svg";
+import inst from "/img/icons/telegram.svg";
 import git from "/img/icons/gitHub.svg";
 
 import styles from "./Footer.module.scss";
@@ -18,7 +18,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="#!">
+              <a href="https://t.me/Mpatrakeev">
                 <img src={inst} alt="Link" />
               </a>
             </li>
