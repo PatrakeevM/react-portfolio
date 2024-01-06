@@ -1,8 +1,21 @@
-# React + Vite
+# ***Frontend Portfolio*** :large_orange_diamond:
+## Используемые технологии: :scroll:
++ Vite
++ React
+  + react-router
++ SCSS
+___
+```JavaScript
+const timerPromise = () =>
+    new Promise((resolve, reject) => setTimeOut(() => resolve(), 5000));
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+const getResult = async () => {
+    console.log('Start');
+    const startTime = perfomance.now();
+    await timerPromise();
+    const endTime = perfomance.now();
+    console.log('Finish', endTime - startTime);
+};
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+getResult();
+```
