@@ -2,6 +2,7 @@
 ## Используемые технологии: :scroll:
 + Vite
 + React
+  + react-router
 + SCSS
 ___
 ```JavaScript
