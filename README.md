@@ -3,5 +3,5 @@
 + Vite
 + React
   + react-router
-+ SCSS
-  + CSS.modules
++ SASS
+  + SCSS.modules
