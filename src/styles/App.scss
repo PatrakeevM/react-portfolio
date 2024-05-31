@@ -142,6 +142,20 @@ body {
   margin-top: 0.5em;
 }
 
+.content-list__inner {
+  display: flex;
+  display: inline-flex;
+  gap: 2px;
+}
+
+.content-list__inner img {
+  order: -1;
+}
+
+.content-list__inner p {
+  padding-right: 6px;
+}
+
 @media (max-width: 1024px) {
   .title-1 {
     font-size: 56px;

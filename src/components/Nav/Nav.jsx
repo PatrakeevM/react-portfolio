@@ -26,7 +26,7 @@ const Nav = () => {
                 }
                 to={"/"}
               >
-                Home
+                Обо мне
               </NavLink>
             </li>
             <li>
@@ -36,7 +36,7 @@ const Nav = () => {
                 }
                 to={"/projects"}
               >
-                Projects
+                Проекты
               </NavLink>
             </li>
             <li>
@@ -46,7 +46,7 @@ const Nav = () => {
                 }
                 to={"/contacts"}
               >
-                Contacts
+                Контакты
               </NavLink>
             </li>
           </ul>
