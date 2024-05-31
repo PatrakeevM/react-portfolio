@@ -3,5 +3,6 @@
 + Vite
 + React
   + react-router
+  + react-content-loader
 + SASS
   + SCSS.modules

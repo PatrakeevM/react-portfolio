@@ -28,9 +28,6 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-          <div className={styles.copyright}>
-            <p>© 2023 frontend-dev.com</p>
-          </div>
         </div>
       </div>
     </footer>
