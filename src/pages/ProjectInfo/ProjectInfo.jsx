@@ -22,7 +22,7 @@ const ProjectInfo = () => {
           />
 
           <div className="project-details__desc">
-            <p>Skills: {project.skills}</p>
+            <p>Стэк: {project.skills}</p>
           </div>
 
           <div className={styles.btns}>
@@ -37,7 +37,7 @@ const ProjectInfo = () => {
                 className="btn-outline"
                 href={project.projectLink}
               >
-                Visit Project
+                Перейти к проекту
               </a>
             )}
           </div>
